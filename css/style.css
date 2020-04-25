@@ -648,6 +648,19 @@ sup {
   
 /**CSS Code Start**/
 
+.navbar-brand{
+	margin-left: 20px;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link {
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link:hover {
+    background: url(../images/br.png) center bottom no-repeat;
+}
+
 .banner-inner h1 {
     font-size: 30px;
     line-height: 42px;
@@ -703,6 +716,10 @@ sup {
 	font-size: 14px;
 }
 
+.testimonial .owl-carousel {
+    padding: 60px 0px 0px;
+}
+
 .eye-catcher h2{
 	font-size: 30px;
 }
@@ -714,6 +731,12 @@ sup {
 .card{
 	margin-bottom: 50px;
 }
+
+.main-form .form-control{
+	font-size: 13px;
+}
+
+
 /**CSS Code End**/
   
 }
@@ -740,8 +763,6 @@ sup {
 
 
 
-
-
 /**CSS Code End**/
   
   
@@ -758,6 +779,11 @@ sup {
   
 /**CSS Code Start**/
 
+.header-section .navbar-light .navbar-nav .nav-link {
+    margin-left: 630px;
+    margin-bottom: 10px;
+}
+
 .banner-inner h1 {
     font-size: 32px;
     line-height: 42px;
@@ -766,9 +792,76 @@ sup {
     margin-bottom: 10px;
 }
 
+.feature-title h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
 
+.feature-inner h5{
+	font-size: 15px;
+}
 
+.feature-inner p{
+	font-size: 11px;
+	line-height: 20px;
+}
 
+.about-inner h1{
+	font-size: 27px;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+.about-inner p{
+	font-size: 11px;
+}
+
+.short-inner h1{
+	font-size: 23px;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+.short-inner p{
+	font-size: 9px;
+}
+
+.testimonial .owl-carousel {
+    padding: 60px 0px 0px;
+}
+
+.eye-catcher h2{
+	font-size: 25px;
+}
+
+.btn-div .btn-primary{
+	margin-bottom: 20px;
+}
+
+.main-price .card .card-header h3{
+	font-size: 20px;
+}
+
+.main-price .card .card-title h1{
+	font-size: 40px;
+}
+
+.main-price .card .card-body .title-price{
+	padding: 15px 0px 10px;
+}
+
+.price-inner{
+	padding: 10px 0px 0px;
+}
+
+.price-inner .card-text{
+	font-size: 12px;
+}
+
+.price-inner .btn-primary{
+	padding: 12px 25px;
+	margin-bottom: 15px;
+}
 
 
 /**CSS Code End**/
