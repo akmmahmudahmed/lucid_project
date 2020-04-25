@@ -636,7 +636,142 @@ sup {
 	font-size: 20px;
 }
 
-
-
-
 /*Footer Section End*/
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+/**CSS Code Start**/
+
+.banner-inner h1 {
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.banner-inner p{
+	font-size: 11px;
+	font-weight: 400;
+	margin-bottom: 60px;
+}
+
+.btn-div .btn-info{
+	margin-bottom: 20px;
+}
+
+.feature-title h1 {
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.feature-inner{
+	padding: 40px 10px 10px;
+}
+
+.about-inner h1 {
+    font-size: 29px;
+    line-height: 42px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.about-inner p{
+	font-size: 11px;
+}
+
+.short-inner h1 {
+    font-size: 29px;
+    line-height: 42px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.short-inner p{
+	font-size: 11px;
+	margin: 10px 0px 20px;
+}
+
+.testi-inner h5{
+	font-size: 14px;
+}
+
+.eye-catcher h2{
+	font-size: 30px;
+}
+
+.btn-div .btn-primary{
+	margin-bottom: 20px;
+}
+
+.card{
+	margin-bottom: 50px;
+}
+/**CSS Code End**/
+  
+}
+
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+/**CSS Code Start**/
+
+.banner-inner h1 {
+    font-size: 38px;
+    line-height: 46px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+/**CSS Code End**/
+  
+  
+}
+
+
+
+/* 
+  ##Device = Tablets, Ipads
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+/**CSS Code Start**/
+
+.banner-inner h1 {
+    font-size: 32px;
+    line-height: 42px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+/**CSS Code End**/
+  
+  
+}
